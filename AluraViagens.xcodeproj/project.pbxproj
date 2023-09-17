@@ -13,6 +13,7 @@
 		7D8FFF992AB67971002784CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D8FFF972AB67971002784CF /* Main.storyboard */; };
 		7D8FFF9B2AB67973002784CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D8FFF9A2AB67973002784CF /* Assets.xcassets */; };
 		7D8FFF9E2AB67973002784CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D8FFF9C2AB67973002784CF /* LaunchScreen.storyboard */; };
+		7D8FFFA62AB7BE1B002784CF /* HomeTableViewHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D8FFFA52AB7BE1B002784CF /* HomeTableViewHeader.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		7D8FFF9A2AB67973002784CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7D8FFF9D2AB67973002784CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7D8FFF9F2AB67973002784CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D8FFFA52AB7BE1B002784CF /* HomeTableViewHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeTableViewHeader.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				7D8FFF9A2AB67973002784CF /* Assets.xcassets */,
 				7D8FFF9C2AB67973002784CF /* LaunchScreen.storyboard */,
 				7D8FFF9F2AB67973002784CF /* Info.plist */,
+				7D8FFFA52AB7BE1B002784CF /* HomeTableViewHeader.xib */,
 			);
 			path = AluraViagens;
 			sourceTree = "<group>";
@@ -126,6 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7D8FFF9E2AB67973002784CF /* LaunchScreen.storyboard in Resources */,
+				7D8FFFA62AB7BE1B002784CF /* HomeTableViewHeader.xib in Resources */,
 				7D8FFF9B2AB67973002784CF /* Assets.xcassets in Resources */,
 				7D8FFF992AB67971002784CF /* Main.storyboard in Resources */,
 			);
