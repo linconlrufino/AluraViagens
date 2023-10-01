@@ -17,11 +17,15 @@ class ViewController: UIViewController {
         viagensTableView.dataSource = self
         viagensTableView.delegate = self
         
+        viagensTableView.sectionHeaderTopPadding = 0
         view.backgroundColor = UIColor(red: 30.0/255.0, green: 59.0/255.0, blue: 119.0/255.0, alpha: 1)
     }
 }
 
+
 extension ViewController: UITableViewDataSource {
+    
+    // MARK: - DataSource
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return 10
@@ -40,6 +44,7 @@ extension ViewController: UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
         let headerView = Bundle.main.loadNibNamed("HomeTableViewHeader", owner: self)?.first as? HomeTableViewHeader
+        headerView?.configuraView()
         
         return headerView
     }
