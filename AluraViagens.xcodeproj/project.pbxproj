@@ -41,6 +41,48 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7D16DA042AD218D8005C0112 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				7D8FFF912AB67971002784CF /* AppDelegate.swift */,
+				7D8FFF932AB67971002784CF /* SceneDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		7D16DA052AD218E6005C0112 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7D16DA062AD218F8005C0112 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7D8FFF952AB67971002784CF /* ViewController.swift */,
+				7D8FFF972AB67971002784CF /* Main.storyboard */,
+				7D16DA072AD2191E005C0112 /* Header */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7D16DA072AD2191E005C0112 /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				7D8FFFA52AB7BE1B002784CF /* HomeTableViewHeader.xib */,
+				7D8FFFA72AB7C18A002784CF /* HomeTableViewHeader.swift */,
+			);
+			path = Header;
+			sourceTree = "<group>";
+		};
+		7D16DA082AD21939005C0112 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		7D8FFF852AB67971002784CF = {
 			isa = PBXGroup;
 			children = (
@@ -60,15 +102,13 @@
 		7D8FFF902AB67971002784CF /* AluraViagens */ = {
 			isa = PBXGroup;
 			children = (
-				7D8FFF912AB67971002784CF /* AppDelegate.swift */,
-				7D8FFF932AB67971002784CF /* SceneDelegate.swift */,
-				7D8FFF952AB67971002784CF /* ViewController.swift */,
-				7D8FFF972AB67971002784CF /* Main.storyboard */,
+				7D16DA042AD218D8005C0112 /* AppDelegate */,
+				7D16DA052AD218E6005C0112 /* Model */,
+				7D16DA062AD218F8005C0112 /* View */,
+				7D16DA082AD21939005C0112 /* ViewModel */,
 				7D8FFF9A2AB67973002784CF /* Assets.xcassets */,
 				7D8FFF9C2AB67973002784CF /* LaunchScreen.storyboard */,
 				7D8FFF9F2AB67973002784CF /* Info.plist */,
-				7D8FFFA52AB7BE1B002784CF /* HomeTableViewHeader.xib */,
-				7D8FFFA72AB7C18A002784CF /* HomeTableViewHeader.swift */,
 			);
 			path = AluraViagens;
 			sourceTree = "<group>";
