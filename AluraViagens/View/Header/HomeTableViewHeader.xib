@@ -15,11 +15,10 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="S4L-tt-cJe" userLabel="Header View">
-                    <rect key="frame" x="0.0" y="0.0" width="414" height="250"/>
+                    <rect key="frame" x="-293" y="0.0" width="1000" height="250"/>
                     <subviews>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="alura viagens" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jdM-cI-Bi8">
-                            <rect key="frame" x="31" y="49" width="144" height="33"/>
-                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="alura viagens" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jdM-cI-Bi8">
+                            <rect key="frame" x="324" y="49" width="144" height="33"/>
                             <fontDescription key="fontDescription" name="KohinoorDevanagari-Semibold" family="Kohinoor Devanagari" pointSize="23"/>
                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <nil key="highlightedColor"/>
@@ -27,6 +26,8 @@
                     </subviews>
                     <color key="backgroundColor" red="0.1176470588" green="0.23137254900000001" blue="0.46666666670000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <constraints>
+                        <constraint firstAttribute="width" constant="1000" id="4Cy-OD-Hwh"/>
+                        <constraint firstItem="jdM-cI-Bi8" firstAttribute="top" secondItem="S4L-tt-cJe" secondAttribute="top" constant="49" id="Z5G-qI-mD3"/>
                         <constraint firstAttribute="height" constant="250" id="fl5-I7-0Cs"/>
                     </constraints>
                 </view>
@@ -82,11 +83,11 @@
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
             <constraints>
                 <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="Uq6-cd-Kqk" secondAttribute="trailing" constant="20" id="Axz-o9-553"/>
-                <constraint firstItem="S4L-tt-cJe" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="I5t-9x-ecY"/>
+                <constraint firstItem="jdM-cI-Bi8" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="31" id="Gpo-l1-lcl"/>
                 <constraint firstItem="Uq6-cd-Kqk" firstAttribute="bottom" secondItem="S4L-tt-cJe" secondAttribute="bottom" constant="10" id="JY3-Mj-6GA"/>
                 <constraint firstItem="Uq6-cd-Kqk" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="YU7-1b-jeu"/>
-                <constraint firstItem="S4L-tt-cJe" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="aMg-gE-dxM"/>
                 <constraint firstItem="S4L-tt-cJe" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="o3k-Ag-ySO"/>
+                <constraint firstItem="S4L-tt-cJe" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="omn-FR-OLW"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <connections>
